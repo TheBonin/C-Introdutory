@@ -28,11 +28,7 @@ int main(){
 
     switch(correct_answer){
         case(1):
-            printf("\nCongratulations, you've got %d answer(s) correct",correct_answer);
-            break;
-        case(2):
-            printf("\nCongratulations, you've got %d answer(s) correct",correct_answer);
-            break;
+        case(2):        //Works the same as || (OR) operator
         case(3):
             printf("\nCongratulations, you've got %d answer(s) correct",correct_answer);
             break;                
