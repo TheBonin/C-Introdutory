@@ -36,7 +36,6 @@ int main(){
             printf("\nTry again next time, you've got %d answer(s) correct",correct_answer);
             break;
         default:
-            printf("\n Was %d",correct_answer);
             break;
     }
 
