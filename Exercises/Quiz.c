@@ -19,6 +19,7 @@ int main(){
         printf("\nDigite sua resposta: \n");
         scanf("%c", &answer);
         scanf("%*c"); // Clear \n from inpout buffer - * means that the answear will not be stored anywhere
+        // These two lines above can be replaced for: scanf("%c%*c")
         answer = toupper(answer);
 
         if(answer == solutions[i]){
